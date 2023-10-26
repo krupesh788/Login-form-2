@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.container {
+
+
+    height: 80vh;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 3px solid aquamarine;
+    border-radius: 25px;
+    justify-content: center;
+
+}
+.main-1{
+
+    height: 80vh;
+    padding: 100px;
+    display: grid;
+    justify-content: center;
+    /* border: 2px solid rgb(33,33,33); */
+    /* margin-top: 8px; */
+}
+.main-2{
+
+    display: grid;
+    height: 80vh;
+    margin-top: 100px;
+    padding: 100px;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+
+div {
+    display: block;
+}
+
+h3{
+    text-align: center;
+    padding: 20px;
+}
+.user{
+
+    padding: 8px 40px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+}
+
+.mail{
+
+    padding: 8px 40px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+}
+
+.pass{
+
+    padding: 8px 35px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+}
+.conpass
+{
+    padding: 8px 35px;
+    margin: 3px 3px 3px 4px;
+    box-sizing: border-box;
+    cursor: default;
+    font-weight: bold;
+    
+}
+.checkbox{
+    margin-top: 20px;
+}
+
+.btn{
+
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: white;
+    /* text-shadow: 2px 2px blueviolet; */
+    padding: 12px 50px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.p1{
+    color: blue;
+    font-weight: bold;
+
+}
+span{
+    font-weight: bold;
+    
+}
+img{
+    height: 60vh;
+    margin-left: 75px;
+    padding-left: 75px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} 
