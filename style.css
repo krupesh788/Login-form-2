@@ -83,8 +83,12 @@ h3{
 .checkbox{
     margin-top: 20px;
 }
+.button{
 
-.btn{
+    text-align: center;
+}
+
+.button button{
 
     background-color: blue;
     border: 1px solid blue;
@@ -92,8 +96,7 @@ h3{
     color: white;
     /* text-shadow: 2px 2px blueviolet; */
     padding: 12px 50px;
-    text-decoration: none;
-    margin: 4px 2px;
+    margin: 8px 60px;
     cursor: pointer;
     text-transform: uppercase;
     text-align: center;
